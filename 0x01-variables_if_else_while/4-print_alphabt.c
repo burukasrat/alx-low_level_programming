@@ -1,6 +1,7 @@
 #include<stdio.h>
 /**
  * main - this is the main function
+ * Return: 0 always
  */
 int main(void)
 {
@@ -9,7 +10,7 @@ int main(void)
 	while (alpha < 123) /* print alphabets till false*/
 	{
 		/* print if alpha is not 11 or 113*/
-		if (alpha != 11 || alpha != 113)
+		if (alpha != 11 && alpha != 113)
 		{
 			putchar(alpha);
 		}
