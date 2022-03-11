@@ -5,20 +5,20 @@
  */
 int main(void)
 {
-        int alphaU = 97;
+	int alphaU = 97;
 	int alphaL = 65;
 
-        while (alphaU < 123) /* print the alphabet using putchar */
-        {
-                putchar(alphaU);
-                alphaU++;
-        }
+	while (alphaU < 123) /* print the alphabet using putchar */
+	{
+		putchar(alphaU);
+		alphaU++;
+	}
 	while (alphaL < 91) /* print lowercase alphabets*/
 	{
 		putchar(alphaL);
 		alphaL++;
 	}
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
 
