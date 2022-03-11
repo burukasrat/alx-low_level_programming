@@ -10,8 +10,11 @@ int main(void)
 	while (num < 58) /*print in ascending*/
 	{
 		putchar(num);
-		putchar(',');
-		putchar(' ');
+		if (num != 57) /* stop at 9*/
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		num++;
 	}
 	putchar('\n');
