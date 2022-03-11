@@ -6,14 +6,13 @@
 int main(void)
 {
         int alphaU = 97;
+	int alphaL = 65;
 
         while (alphaU < 123) /* print the alphabet using putchar */
         {
                 putchar(alphaU);
                 alphaU++;
         }
-	int alphaL = 65;
-
 	while (alphaL < 91) /* print lowercase alphabets*/
 	{
 		putchar(alphaL);
