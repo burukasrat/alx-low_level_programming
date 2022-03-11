@@ -10,7 +10,7 @@ int main(void)
 	while (alpha < 123) /* print alphabets till false*/
 	{
 		/* print if alpha is not 11 or 113*/
-		if (alpha != 11 && alpha != 113)
+		if (alpha != 101 && alpha != 113)
 		{
 			putchar(alpha);
 		}
