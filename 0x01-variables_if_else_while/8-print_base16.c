@@ -8,12 +8,12 @@ int main(void)
 	int num = 48;
 	int alpha = 97;
 
-	while (num > 58) /* print 0-9*/
+	while (num < 58) /* print 0-9*/
 	{
 		putchar(num);
 		num++;
 	}
-	while (alpha > 103) /* print a-f*/
+	while (alpha < 103) /* print a-f*/
 	{
 		putchar(alpha);
 		alpha++;
