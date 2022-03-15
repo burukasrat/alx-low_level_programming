@@ -10,6 +10,7 @@ int main(void)
 	while (loop < 8)
 	{
 		_putchar(c[loop]);
+		loop++;
 	}
 	return (0);
 }
