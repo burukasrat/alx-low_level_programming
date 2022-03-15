@@ -1,9 +1,9 @@
-#include<stdio.h>
+#include "main.h"
 /**
  * print_alphabet_x10 - print the alpha bet 3 times
  * Return: void
  */
-void print_alphabet_x10()
+void print_alphabet_x10(void)
 {
 	int loop = 0, alpha = 97;
 
@@ -11,19 +11,10 @@ void print_alphabet_x10()
 	{
 		while (alpha < 123)
 		{
-			_putchar("%c", alpha);
+			_putchar(alpha);
 			alpha++;
 		}
 		loop++;
 		_putchar('\n');
 	}
-}
-/**
- * main - the main function
- * Return: always 0
- */
-int main(void)
-{
-	prirnt_alphabet_x10();
-	return (0);
 }

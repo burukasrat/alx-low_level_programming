@@ -9,3 +9,8 @@ void _putchar(int c);
  * Return: void
  */
 void print_alphabet(void);
+/**
+ * print_alphabet_x10.c - print 
+ * Return: void
+ */
+void print_alphabet_x10(void);
