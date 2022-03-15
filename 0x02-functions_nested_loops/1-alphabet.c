@@ -5,22 +5,12 @@
  */
 void print_alphabet(void)
 {
-        int loop = 97;
+	int loop = 97;
 
-        while (loop < 123)
-        {
-                _putchar(loop);
-                loop++;
-        }
-        _putchar('\n');
+	while (loop < 123)
+	{
+		_putchar(loop);
+		loop++;
+	}
+	_putchar('\n');
 }
-/**
- * main - check the code
- * Return: always 0
- */
-/*int main(void)
-{
-	print_alphabet();
-	return (0);
-}*/
-
