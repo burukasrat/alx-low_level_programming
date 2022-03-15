@@ -10,7 +10,7 @@ void _putchar(int c);
  */
 void print_alphabet(void)
 {
-	loop = 97;
+	int loop = 97;
 	
 	while (loop < 123)
 	{
