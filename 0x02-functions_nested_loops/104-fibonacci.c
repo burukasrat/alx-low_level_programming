@@ -5,7 +5,7 @@
  */
 void print_fibonacci(void)
 {
-	long double int n1 = 1, n2 = 2,
+	long double n1 = 1, n2 = 2,
 	     sum = 0, counter = 0;
 	
 	printf("%Lf, %Lf, ", n1, n2);
