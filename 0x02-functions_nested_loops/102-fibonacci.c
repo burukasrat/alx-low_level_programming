@@ -11,7 +11,7 @@ void fibonacci(void)
 	while (counter < 48)
 	{
 		sum = n1 + n2;
-		if (n == 47)
+		if (counter == 47)
 		{
 			printf("%d\n", sum);
 		}
@@ -24,7 +24,7 @@ void fibonacci(void)
 		counter++;
 	}
 }
-/**
+i**
  * main - main
  * Return: 0 always
  */
@@ -33,4 +33,3 @@ int main(void)
 	fibonacci();
 	return (0);
 }
-
