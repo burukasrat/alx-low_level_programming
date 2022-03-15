@@ -4,3 +4,19 @@
  * Return: void
  */
 void _putchar(int c);
+/**
+ * print_alphabet - print the alphabet
+ * Return: void
+ */
+void print_alphabet(void)
+{
+	loop = 97;
+	
+	while (loop < 123)
+	{
+		_putchar(loop);
+		loop++;
+	}
+	_putchar('\n');
+}
+
