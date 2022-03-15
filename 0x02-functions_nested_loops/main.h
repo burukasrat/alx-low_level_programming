@@ -8,7 +8,8 @@ void _putchar(int c);
  * print_alphabet - print the alphabet
  * Return: void
  */
-void print_alphabet(void)
+void print_alphabet(void);
+/*
 {
 	int loop = 97;
 	
@@ -19,4 +20,4 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 }
-
+*/
