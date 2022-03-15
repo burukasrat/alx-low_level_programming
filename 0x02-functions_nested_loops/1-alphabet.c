@@ -9,7 +9,7 @@ void print_alphabet(void)
 
 	while (loop < 123) /* print the alphabet */
 	{
-		_putchar("%c",loop);
+		_putchar(loop);
 		loop++;
 	}
 	_putchar('\n');
