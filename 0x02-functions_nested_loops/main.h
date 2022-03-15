@@ -18,3 +18,4 @@ void print_alphabet_x10(void);
  * _islower - who's lower
  * Return: void
  */
+void _islower(int c);
