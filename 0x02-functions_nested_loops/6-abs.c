@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _abs - absolut value
- * Retutn: absolute value
+ * Return: absolute value
  * @n: num
  */
 int _abs(int n)
@@ -12,7 +12,7 @@ int _abs(int n)
 	}
 	else if (n < 0)
 	{
-		return ((n*(-1)));
+		return ((n * (-1)));
 	}
 	else
 		return (0);
