@@ -17,25 +17,24 @@ void jack_bauer(void)
 			while (n2 < 58)
 			{
 				_putchar(n2);
+				_putchar(58);
+				n3 = 48;
+				while (n3 < 58)
+				{
+					_putchar(n3);
+					n4 = 48;
+					while (n4 < 58)
+					{
+						_putchar(n2);
+						n4++;
+					}
+					n3++;
+				}
 				n2++;
 			}
 			n1++;
-		}
-		_putchar(58);
-		n3 = 48;
-		while (n3 < 58)
-		{
-			_putchar(n3);
-			n4 = 48;
-			while (n4 < 58)
-			{
-				_putchar(n2);
-				n4++;
-			}
-			n3++;
 		}
 		_putchar('\n');
 		hr++;
 	}
 }
-
