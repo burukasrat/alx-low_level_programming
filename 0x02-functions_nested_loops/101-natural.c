@@ -9,10 +9,10 @@ int sum_multiple(void)
 
 	while (n < 1024) /*sum it out*/
 	{
-		if ((n % 3) == 0 || (n % 5) == 0
-				/*sum of multiple*/)
+		if ((n % 3) == 0 || (n % 5) == 0)
+				/*sum of multiple*/
 		{
-			sum += n
+			sum += n;
 		}
 		n++;
 	}
