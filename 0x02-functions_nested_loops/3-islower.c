@@ -2,7 +2,7 @@
 /**
  * _islower - checks if c is lowercase
  * Return: 1 if lowercase other wise 0
- * c - ascii value of char
+ * @c: ascii value of char
  */
 int _islower(int c)
 {
