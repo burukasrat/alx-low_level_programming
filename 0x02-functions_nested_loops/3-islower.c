@@ -13,14 +13,4 @@ int _islower(int c)
 	{
 		return (0);
 	}
-}
-/**
- * main - the main function
- * Return: 0 always
- */
-int main(void)
-{
-	int r;
-
-	r = _islower('H');
-	_putchar(r  
+} 

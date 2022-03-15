@@ -14,3 +14,7 @@ void print_alphabet(void);
  * Return: void
  */
 void print_alphabet_x10(void);
+/**
+ * _islower - who's lower
+ * Return: void
+ */
