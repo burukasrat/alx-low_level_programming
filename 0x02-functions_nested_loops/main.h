@@ -3,8 +3,4 @@
  * _putchar - prints char
  * Return: void
  */
-void _putchar(int c)
-{
-	putchar(c);
-}
-
+void _putchar(int c);
