@@ -5,7 +5,7 @@
  */
 void fibonacci(void)
 {
-	int n1 = 1, n2 = 2, sum, counter = 0;
+	long int n1 = 1, n2 = 2, sum, counter = 0;
 
 	printf("%d, %d, ", n1, n2);
 	while (counter < 48)
