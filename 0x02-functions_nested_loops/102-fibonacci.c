@@ -7,17 +7,17 @@ void fibonacci(void)
 {
 	long int n1 = 1, n2 = 2, sum, counter = 0;
 
-	printf("%d, %d, ", n1, n2);
+	printf("%ld, %ld, ", n1, n2);
 	while (counter < 48)
 	{
 		sum = n1 + n2;
 		if (counter == 47)
 		{
-			printf("%d\n", sum);
+			printf("%ld\n", sum);
 		}
 		else
 		{
-			printf("%d, ", sum);
+			printf("%ld, ", sum);
 		}
 		n1 = n2;
 		n2 = sum;
