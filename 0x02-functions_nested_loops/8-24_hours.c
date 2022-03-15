@@ -5,10 +5,11 @@
  */
 void jack_bauer(void)
 {
-	int n1 = 48, n2, n3, n4, hr = 0;
+	int n1, n2, n3, n4, hr = 0;
 
 	while (hr < 24) /* print the time*/
 	{
+		n1 = 48;
 		while (n1 < 58)
 		{
 			_putchar(n1);
@@ -22,7 +23,7 @@ void jack_bauer(void)
 		}
 		_putchar(58);
 		n3 = 48;
-		while(n3 < 58)
+		while (n3 < 58)
 		{
 			_putchar(n3);
 			n4 = 48;
@@ -33,6 +34,7 @@ void jack_bauer(void)
 			}
 			n3++;
 		}
+		_putchar('\n');
 		hr++;
 	}
 }
