@@ -24,7 +24,7 @@ void fibonacci(void)
 		counter++;
 	}
 }
-i**
+/**
  * main - main
  * Return: 0 always
  */
