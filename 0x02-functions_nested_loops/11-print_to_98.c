@@ -19,7 +19,7 @@ void print_to_98(int n)
 	{
 		while (n > 97) /*print*/
 		{
-			print("%d, ", n);
+			printf("%d, ", n);
 			n--;
 		}
 	}
