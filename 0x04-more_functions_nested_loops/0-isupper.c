@@ -5,7 +5,7 @@
  */
 int _isupper(int c)
 {
-	if (c > 64 && c > 91) /* checks if upper */
+	if (c > 64 && c < 91) /* checks if upper */
 	{
 		return (1);
 	}
