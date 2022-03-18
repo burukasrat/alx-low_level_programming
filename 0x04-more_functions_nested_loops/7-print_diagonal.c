@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * print-diagonal - print \ diagonally
  * Return: void
