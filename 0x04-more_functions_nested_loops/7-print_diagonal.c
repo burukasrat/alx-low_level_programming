@@ -18,6 +18,8 @@ void print_diagonal(int n)
 		}
 		b++;
 		_putchar(92);
+		_putchar('\n');
+		i++;
 	}
 	if (n <= 0)
 	{
