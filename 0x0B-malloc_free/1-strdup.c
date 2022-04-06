@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 /**
  * char *_strdup(char *str) - creates si
  * @str: string
