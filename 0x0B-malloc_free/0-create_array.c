@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * char *create_array - creates array with assined size
  * @size: size of array
