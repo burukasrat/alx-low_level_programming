@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stddef.h>
+#include <stdlib.h>
 /**
  * char _strdup(char *str) - creates si
  * @str: string
@@ -8,6 +9,7 @@
 char *_strdup(char *str)
 {
 	char *s;
+	unsigned int i;
 
 	if (str == NULL)
 	{
@@ -15,8 +17,11 @@ char *_strdup(char *str)
 	}
 	else
 	{
-		s = malloc(sizeof(char)*strlen(*str));
-		s = *str;
+		for (i = 0; str[i] != '\0'; i++)
+			;
+		s = (char *)malloc(sizeof(char)*(i + 1));
+		for (int j = 0; str[j] != '\0'; j++)
+			s[j] = str[j];
 		return (s);
 	}
 }
