@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stddef.h>
 /**
- * char *_strdup(char *str) - creates si
+ * char _strdup(char *str) - creates si
  * @str: string
  * Return: something
  */
@@ -13,8 +13,10 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	else 
+	else
 	{
-		return (s = str);
+		s = malloc(sizeof(char)*strlen(*str));
+		s = *str;
+		return (s);
 	}
 }
